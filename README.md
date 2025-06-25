@@ -1,16 +1,13 @@
-## Hi there 👋
+# 👋 Hello, I'm Muqadas Urooj  
+### 🚀 React Native & Web Developer | 💡 100 Days of Code Challenge
 
-<!--
-**muqadasurooj512/muqadasurooj512** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🌱 Currently learning: React Native CLI, Firebase, and Push Notifications  
+- 🔧 Projects: Doctor-Patient App, Audio Assistant with WebSocket  
+- 📚 Also working on: JavaScript and Python learning challenges  
+- 📌 GitHub Streaks: 🔥 Active contributor daily!
 
-Here are some ideas to get you started:
+### 🛠️ Skills:
+React Native · JavaScript · PHP · SQL · Firebase · Git · HTML · CSS
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📫 Connect with me:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/your-link)
