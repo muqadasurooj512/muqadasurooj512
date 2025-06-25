@@ -10,4 +10,4 @@
 React Native · JavaScript · PHP · SQL · Firebase · Git · HTML · CSS
 
 ### 📫 Connect with me:
-[![LinkedIn](https://muqadasurooj512.github.io/muqadasurooj512/)
+(https://muqadasurooj512.github.io/muqadasurooj512/)
