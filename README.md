@@ -10,4 +10,4 @@
 React Native · JavaScript · PHP · SQL · Firebase · Git · HTML · CSS
 
 ### 📫 Connect with me:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/your-link)
+[![LinkedIn](https://muqadasurooj512.github.io/muqadasurooj512/)
