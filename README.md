@@ -3,13 +3,8 @@
 
 ---
 
-<img 
-  align="right" 
-  alt="coding" 
-  width="200" 
-  src="./image.jpg" 
-  style="border-radius: '50%'; object-fit: cover; aspect-ratio: 1 / 1;" 
-/>
+<img src="https://avatars.githubusercontent.com/u/12345678?v=4" width="150" style="border-radius: 50%;" />
+
 
 
 <p align="left"> 
