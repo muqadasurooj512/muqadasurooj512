@@ -3,7 +3,7 @@
 
 ---
 
-<img align="right" alt="coding" width="400" src="./image.jpg" />
+<img align="right" alt="coding" width="400" src="./image.jpg" style="border-radius:50%;object-fit:cover;aspect-ratio:1/1;" />
 
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=muqadasurooj512&label=Profile%20views&color=0e75b6&style=flat" alt="muqadasurooj512" /> 
