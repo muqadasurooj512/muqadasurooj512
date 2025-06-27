@@ -3,7 +3,7 @@
 
 ---
 
-<img align="right" alt="coding" width="400" src="https://github.com/settings/profile" />
+<img align="right" alt="coding" width="400" src="./image.jpg" />
 
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=muqadasurooj512&label=Profile%20views&color=0e75b6&style=flat" alt="muqadasurooj512" /> 
