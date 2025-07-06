@@ -7,7 +7,7 @@
   align="right" 
   alt="coding" 
   width="200" 
-  src="./image.jpg" 
+  src="" 
   style="border-radius: 50%; object-fit: cover; aspect-ratio: 1 / 1;" 
 />
 
