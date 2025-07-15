@@ -5,119 +5,184 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Muqadas Urooj | Portfolio</title>
   <style>
+    :root {
+      --primary: #5b67f3;
+      --secondary: #8e44ad;
+      --text: #333;
+      --background: #f5f6fa;
+      --card-bg: #fff;
+      --border-radius: 12px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f7f9fc;
-      color: #333;
-      padding: 30px;
+      background: var(--background);
+      color: var(--text);
       line-height: 1.6;
+      padding: 20px;
     }
-    h1, h2 {
-      color: #2c3e50;
+
+    header {
+      text-align: center;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      padding: 40px 20px;
+      border-radius: var(--border-radius);
+      margin-bottom: 40px;
     }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header h3 {
+      font-weight: normal;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .profile-img {
+      display: block;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--primary);
+      margin: 0 auto 20px auto;
+    }
+
+    .section {
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .section h2 {
+      color: var(--primary);
+      margin-bottom: 15px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
     a {
-      color: #007acc;
+      color: var(--secondary);
       text-decoration: none;
     }
-    .section {
-      margin-bottom: 30px;
+
+    .icons img {
+      margin: 10px 15px 0 0;
+      vertical-align: middle;
     }
-    .profile-img {
-      float: right;
-      width: 400px;
-      border-radius: 50%;
-      margin-left: 30px;
-      object-fit: cover;
-      aspect-ratio: 1/1;
+
+    .contact-icons a {
+      margin-right: 20px;
     }
+
     .stats-img {
-      max-width: 100%;
-      margin-bottom: 10px;
+      width: 100%;
+      margin-top: 10px;
+      border-radius: var(--border-radius);
+    }
+
+    @media (max-width: 600px) {
+      .profile-img {
+        width: 130px;
+        height: 130px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
     }
   </style>
 </head>
 <body>
 
-  <h1 align="center">Hi 👋, I'm Muqadas Urooj</h1>
-  <h3 align="center">A Passionate React Native & Web Developer from Pakistan</h3>
-  <hr />
+  <header>
+    <h1>Hi 👋, I'm Muqadas Urooj</h1>
+    <h3>A Passionate React Native & Web Developer from Pakistan</h3>
+  </header>
 
-  <img class="profile-img" alt="coding" src="./image.jpg" />
+  <div class="container">
+    <img class="profile-img" src="./image.jpg" alt="Muqadas Urooj" />
 
-  <p align="left">
-    <img src="https://komarev.com/ghpvc/?username=muqadasurooj512&label=Profile%20views&color=0e75b6&style=flat" alt="muqadasurooj512" />
-  </p>
-
-  <hr />
-
-  <div class="section">
-    <h2>🔥 About Me</h2>
-    <ul>
-      <li>🧠 Started as an <strong>Android Developer</strong> (Java, XML, SQL, PHP)</li>
-      <li>🚀 Now building apps with <strong>React Native</strong> (cross-platform mobile development)</li>
-      <li>🔧 Focused on UI/UX, Firebase integration, and performance</li>
-      <li>🎯 Always learning and exploring new tech trends</li>
-    </ul>
-  </div>
-
-  <hr />
-
-  <div class="section">
-    <h2>🌍 Connect with Me</h2>
-    <p>
-      <a href="https://www.linkedin.com/in/muqadasurooj5121472" target="_blank">
-        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-      </a>
-      &nbsp;&nbsp;
-      <a href="mailto:muqadasurooj39@gmail.com">
-        <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/email.svg" alt="Email" height="30" width="40" />
-      </a>
+    <p align="center">
+      <img src="https://komarev.com/ghpvc/?username=muqadasurooj512&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
     </p>
-  </div>
 
-  <hr />
+    <div class="section">
+      <h2>🔥 About Me</h2>
+      <ul>
+        <li>🧠 Started as an <strong>Android Developer</strong> (Java, XML, SQL, PHP)</li>
+        <li>🚀 Now building apps with <strong>React Native</strong> (cross-platform mobile development)</li>
+        <li>🔧 Focused on UI/UX, Firebase integration, and performance</li>
+        <li>🎯 Always learning and exploring new tech trends</li>
+      </ul>
+    </div>
 
-  <div class="section">
-    <h2>🛠️ Skills & Tools</h2>
-    <h4>📌 Mobile & Web Development:</h4>
-    <p>
-      <img src="https://reactnative.dev/img/header_logo.svg" alt="React Native" width="40" height="40"/>
-      &nbsp;&nbsp;
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-      &nbsp;&nbsp;
-      <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="40" height="40"/>
-      &nbsp;&nbsp;
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40"/>
-      &nbsp;&nbsp;
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>
-    </p>
-  </div>
+    <div class="section">
+      <h2>🌍 Connect with Me</h2>
+      <p align="center" class="contact-icons">
+        <a href="https://www.linkedin.com/in/muqadasurooj5121472" target="_blank">
+          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" width="35" height="35" />
+        </a>
+        <a href="mailto:muqadasurooj39@gmail.com">
+          <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/email.svg" alt="Email" width="35" height="35" />
+        </a>
+      </p>
+    </div>
 
-  <hr />
+    <div class="section">
+      <h2>🛠️ Skills & Tools</h2>
+      <p class="icons">
+        <img src="https://reactnative.dev/img/header_logo.svg" alt="React Native" width="40" height="40"/>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
+        <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="40" height="40"/>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="40" height="40"/>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>
+      </p>
+    </div>
 
-  <div class="section">
-    <h2>🧩 Experience</h2>
-    <ul>
-      <li>💼 <strong>DZS Solutions</strong> — Junior React Native Developer (Mar 2025 – Present)</li>
-      <li>💼 <strong>Programmers Lab</strong> — React Native Developer (Nov 2024 – Jan 2025)</li>
-      <li>💼 <strong>SYSTAFF</strong> — Web Design Intern (Jul 2023 – Aug 2023)</li>
-    </ul>
-  </div>
+    <div class="section">
+      <h2>🧩 Experience</h2>
+      <ul>
+        <li>💼 <strong>DZS Solutions</strong> — Junior React Native Developer (Mar 2025 – Present)</li>
+        <li>💼 <strong>Programmers Lab</strong> — React Native Developer (Nov 2024 – Jan 2025)</li>
+        <li>💼 <strong>SYSTAFF</strong> — Web Design Intern (Jul 2023 – Aug 2023)</li>
+      </ul>
+    </div>
 
-  <hr />
+    <div class="section">
+      <h2>🎓 Education</h2>
+      <p>
+        <strong>Bachelor in Computer Science</strong><br />
+        Rawalpindi Women University<br />
+        (2020 – 2024)
+      </p>
+    </div>
 
-  <div class="section">
-    <h2>🎓 Education</h2>
-    <p><strong>Bachelor in Computer Science</strong><br />Rawalpindi Women University<br />(2020 – 2024)</p>
-  </div>
-
-  <hr />
-
-  <div class="section">
-    <h2>📊 GitHub Stats</h2>
-    <img class="stats-img" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muqadasurooj512&layout=compact&theme=default" alt="Top Languages" />
-    <img class="stats-img" src="https://github-readme-stats.vercel.app/api?username=muqadasurooj512&show_icons=true&theme=default" alt="GitHub Stats" />
-    <img class="stats-img" src="https://github-readme-streak-stats.herokuapp.com?user=muqadasurooj512&theme=default" alt="GitHub Streak" />
+    <div class="section">
+      <h2>📊 GitHub Stats</h2>
+      <img class="stats-img" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muqadasurooj512&layout=compact&theme=default" alt="Top Languages" />
+      <img class="stats-img" src="https://github-readme-stats.vercel.app/api?username=muqadasurooj512&show_icons=true&theme=default" alt="GitHub Stats" />
+      <img class="stats-img" src="https://github-readme-streak-stats.herokuapp.com?user=muqadasurooj512&theme=default" alt="GitHub Streak" />
+    </div>
   </div>
 
 </body>
