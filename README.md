@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Muqadas Urooj</h1>
-<h3 align="center">A Passionate React Native & Web Developer from Pakistan</h3>
+<h3 align="center">A Passionate React Native & Web Developer</h3>
 
 ---
 
@@ -36,7 +36,7 @@
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
   </a>
   &nbsp;&nbsp;
-  <a href="mailto:muqadasurooj39@gmail.com">
+<!--   <a href="mailto:muqadasurooj39@gmail.com"> -->
     <img align="center" src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/email.svg" alt="Email" height="30" width="40" />
   </a>
 </p>
